@@ -18,7 +18,7 @@ nav {
     align-items: center;
     flex: 1;
     width: 100%;
-    background: black;
+    background: navy;
 }
 
 .logo {
@@ -42,7 +42,8 @@ nav {
 .nav_li li {
     text-decoration: none;
     padding: 20px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Abril Fatface", serif;
+    font-size: 18pt;
 }
 
 .nav_li a {
@@ -64,6 +65,39 @@ body, html {
     overflow: hidden;
   }
   
+  .banner-text {
+     position: absolute;
+     top: 0;
+     text-align: center;
+     color: navy;
+     padding: 10%;
+  }
+
+  .banner-text h1 {
+      font-family: "Abril Fatface", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 50pt;
+  }
+
+  .banner-text p {
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 20pt;
+  }
+
+  .main-button {
+   color: white;
+   padding: 15px;
+   background-color: navy;
+   font-family: "Abril Fatface", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18pt;
+  }
+  
   .slide {
     display: none;
     width: 100%;
@@ -78,125 +112,21 @@ body, html {
     height: auto;
   }
   
-  .arrow {
-    position: absolute;
-    bottom: 20px;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-    z-index: 1;
-  }
-  
-  .left-arrow {
-    left: 20px;
-  }
-  
-  .right-arrow {
-    right: 20px;
-  }
-  
   /* Block 1 */
 
-  .block_1 {
+  .block-1 {
     display: flex;
+    margin: 40px;
     width: 100%;
-  }
-
-  /* Image left */
-
-  .image {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 60px 0 60px 0;
-    padding-left: 15px;
-    width: 50%;
-  }
-
-  .image img {
-    width: 500px;
-  }
-
-  .content {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 60px 0 60px 0;
-    width: 50%;
-    text-align: start;
   }
 
-  .content p {
-    width: 500px;
-    font-family: 'Noto Sans', sans-serif;
-    padding-bottom: 15px;
+  .text-block {
+    margin: 20px;
+    width: 400px;
   }
 
-  button {
-    color: white;
-    background-color: #eeb501;
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
+  .block-1 img {
+   width: 400px;
   }
-
-  .content h1 {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 800;
-  }
-  
-  /* block 2 */
-
-.block_2 {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 50px 0 50px;
-}
-
-.cube {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 15px;
-}
-
-.cube p {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
-}
-
-.cube h1 {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 800;
-}
-
-/* Block 3 */
-
-.block_3 {
-    border: ;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 50px 0 50px;
-}
-
-.content_2 {
-    margin: 60px 0 60px 0;
-    width: 50%;
-    text-align: start;
-}
-
-.image_2 {
-    margin: 60px 0 60px 0;
-    padding-left: 15px;
-    width: 50%;
-}
